@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-qootes/static/css/main.803b8e56.css",
+    "main.js": "/react-qootes/static/js/main.44853cc2.js",
+    "index.html": "/react-qootes/index.html",
+    "main.803b8e56.css.map": "/react-qootes/static/css/main.803b8e56.css.map",
+    "main.44853cc2.js.map": "/react-qootes/static/js/main.44853cc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.803b8e56.css",
+    "static/js/main.44853cc2.js"
+  ]
+}
