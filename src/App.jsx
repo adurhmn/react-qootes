@@ -11,22 +11,22 @@ const App = function () {
   return (
     <Fragment>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/react-qootes" exact>
           <Header />
           <Home />
           <Footer />
         </Route>
-        <Route path="/people" exact>
+        <Route path="/react-qootes/people" exact>
           <Header />
           <People />
           <Footer />
         </Route>
-        <Route path="/sections" exact>
+        <Route path="/react-qootes/sections" exact>
           <Header />
           <Sections />
           <Footer />
         </Route>
-        <Route path="/:category/:subCategory" exact>
+        <Route path="/react-qootes/:category/:subCategory" exact>
           <QuoteFeed />
           <Footer />
         </Route>

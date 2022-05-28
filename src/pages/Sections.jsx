@@ -24,7 +24,7 @@ const Sections = () => {
       {sections.map((name) => (
         <Link
           key={name}
-          to={`/sections/${changeConvention(name)}`}
+          to={`/react-qootes/sections/${changeConvention(name)}`}
           className="sections__item"
         >
           {name}

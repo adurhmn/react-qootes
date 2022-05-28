@@ -39,13 +39,16 @@ const Home = function () {
   return (
     <Fragment>
       <section className="category">
-        <Link to="/people" className="category__item">
+        <Link to="/react-qootes/people" className="category__item">
           People
         </Link>
-        <Link to="/sections" className="category__item">
+        <Link to="/react-qootes/sections" className="category__item">
           Sections
         </Link>
-        <Link to="/special/influential-quotes" className="category__item">
+        <Link
+          to="/react-qootes/special/influential-quotes"
+          className="category__item"
+        >
           Influential Quotes
         </Link>
       </section>

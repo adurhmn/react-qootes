@@ -24,7 +24,7 @@ const People = () => {
       {people.map((name) => (
         <Link
           key={name}
-          to={`/people/${changeConvention(name)}`}
+          to={`/react-qootes/people/${changeConvention(name)}`}
           className="people__item"
         >
           {name}
