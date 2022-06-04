@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-qootes/static/css/main.1eec333c.css",
-    "main.js": "/react-qootes/static/js/main.44e74879.js",
+    "main.js": "/react-qootes/static/js/main.d7f8e456.js",
     "index.html": "/react-qootes/index.html",
     "main.1eec333c.css.map": "/react-qootes/static/css/main.1eec333c.css.map",
-    "main.44e74879.js.map": "/react-qootes/static/js/main.44e74879.js.map"
+    "main.d7f8e456.js.map": "/react-qootes/static/js/main.d7f8e456.js.map"
   },
   "entrypoints": [
     "static/css/main.1eec333c.css",
-    "static/js/main.44e74879.js"
+    "static/js/main.d7f8e456.js"
   ]
 }
