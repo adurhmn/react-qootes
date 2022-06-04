@@ -6,32 +6,26 @@ import Footer from "./components/Footer";
 import People from "./pages/People";
 import Sections from "./pages/Sections";
 import QuoteFeed from "./pages/QuoteFeed";
+import LayoutWrapper from "./components/wrapper/LayoutWrapper";
 
 const App = function () {
   return (
-    <Fragment>
+    <LayoutWrapper>
       <Switch>
         <Route path="/react-qootes" exact>
-          <Header />
           <Home />
-          <Footer />
         </Route>
         <Route path="/react-qootes/people" exact>
-          <Header />
           <People />
-          <Footer />
         </Route>
         <Route path="/react-qootes/sections" exact>
-          <Header />
           <Sections />
-          <Footer />
         </Route>
         <Route path="/react-qootes/:category/:subCategory" exact>
           <QuoteFeed />
-          <Footer />
         </Route>
       </Switch>
-    </Fragment>
+    </LayoutWrapper>
   );
 };
 
